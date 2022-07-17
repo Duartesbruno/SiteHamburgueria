@@ -1,0 +1,115 @@
+.layout-cabecalho-topo {
+	padding: 15px;
+	height: 20px;
+	line-height: 60px;
+	border-bottom: 1px solid #ccc;
+
+	background-color: #F4ba60;
+}
+
+.layout-cabecalho-topo--home {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9998;
+}
+
+.layout-cabecalho {
+	height: 55px;
+	line-height: 60px;
+	border-bottom: 1px solid #ccc;
+
+	background-color: #EDEAEA;
+}
+
+.layout-cabecalho--home {
+	position: fixed;
+	top: 1;
+	left: 0;
+	right: 0;
+	z-index: 9998;
+}
+
+@media(min-width: 991px) {
+	.logo-cabecalho {
+		width: 110px; 
+		height: 110px;
+		margin-top: -25px;
+		border-radius: 45px;
+	} 
+}
+
+@media(max-width: 992px) {
+	.logo-cabecalho {
+		width: 83px; 
+		height: 83px;
+		margin-top: -35px;
+		border-radius: 30px;
+	} 
+}
+
+.layout-slide {
+	margin-top: 70px;
+	
+}
+
+.titulo-promo {
+		margin: 50px -30px 0px 0px;
+}
+
+.titulo-cardapio {
+		margin: 50px -30px 0px 0px;
+}
+
+.layout-rodape {
+	padding: 15px;
+	height: 20px;
+	border-top: 1px solid #ccc;
+
+	background-color: #F4ba60;
+}
+
+.layout-rodape1 {
+
+	line-height: 30px;
+	border-bottom: 1px solid #ccc;
+
+	background-color: #EDEAEA;
+
+	color: #000;
+	text-align: center;
+}
+
+
+.logo-rodape {
+	width: 110px; 
+	height: 110px;
+}	
+
+@media(min-width: 456px) {
+	#layout-redes{
+		margin: 2px 40px;
+	}
+}
+
+@media(max-width: 455px) {
+	#layout-redes{
+		margin: 2px 5px;
+	}
+}
+
+@media(max-width: 360px) {
+	#layout-redes{
+		margin: 2px -6px;
+	}
+}
+
+@media(max-width: 354px) {
+	#layout-redes{
+		margin: 2px -27px;
+	}
+}
+
+
+	

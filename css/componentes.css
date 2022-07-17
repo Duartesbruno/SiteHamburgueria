@@ -1,0 +1,241 @@
+/*------------------*\
+	Icones
+\*------------------*/
+.rede{
+	width: 47px;
+	height: 47px;
+	margin: 3px;
+	padding: 7px;
+	transition: all 0.3s ease-out;
+	border-radius: 50%;
+
+}
+
+.rede:hover{
+	cursor: pointer;
+	transform: translateY(-3px); 
+	box-shadow: 3px 10px 10px 0px rgba(50,50,50, 0.45);
+}
+
+
+.rede#facebook, .rede#instagram, .rede#whatsapp{
+	background-color: #EDEAEA;
+}
+
+.rede#facebook:hover,focus, .rede#instagram:hover,focus, .rede#whatsapp:hover,focus{
+	background-color: #fffafa;
+}			
+
+
+.icone{
+	margin: -2px -1px 28px;
+	width: 35px;
+
+}
+
+header ul{
+	list-style: none;
+	display: inline-flex;
+}
+
+/*------------------*\
+	BOTAO-CHAVEADOR
+\*------------------*/
+
+.botao-chaveador {
+	width: 24px;
+	height: 24px;
+	border: 0;
+
+	background: none; 
+	background-image: url("../imagens/bars.png");  
+
+	outline: none; 
+}
+
+@media(min-width: 992px) {
+	.botao-chaveador {
+		display: none;
+	}	
+}
+
+/*------------------*\
+	NAVEGACAO
+\*------------------*/
+
+.navegacao__menu {
+	float: right;	
+}
+
+
+/*------------------*\
+	MENU
+\*------------------*/
+
+.menu {
+	margin: 0;	
+	font-size: 1.9rem;
+	list-style: none;
+}
+
+.menu li a:hover, .menu li a:focus {
+	color: #808080;
+}
+
+.menu li a {
+	color: #000;
+	font-family: Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+@media(max-width: 991px) {
+	.menu {		
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		display: none;
+		width: 200px;
+		padding: 20px;
+		border-right: 1px solid #eee;
+		background-color: #fbfbfb;	
+	}
+
+	.menu--exibindo {
+		display:block;		
+	}
+
+	.menu__item {
+		display: block;
+
+		line-height: 3; 
+	}
+	
+}
+
+@media(min-width: 992px) {
+	.menu__item {
+		display: inline-block;
+		padding-right: 20px;
+	}
+
+	.menu__item:last-of-type {            
+	padding-right: 0px;
+	}
+}
+
+
+/*------------------*\
+	Quem somos
+\*------------------*/
+
+@media(min-width: 769px) {
+	#quem-somos {
+		padding: 100px 20px;
+	}
+}
+
+@media(max-width: 768px) {
+	#quem-somos {
+		padding: 50px 20px;
+	}
+
+}
+
+
+#quem-somos h2 {
+	padding-bottom: 15px;
+
+	font-size: 3.0rem;
+
+}
+
+#quem-somos {
+
+background-size: 100%;
+
+font-size: 2.0rem;
+
+color: #fff;
+text-align: center;
+text-shadow: #000 2px 3px 2px;
+font-family: Helvetica, sans-serif;
+}
+
+
+@media(max-width: 1198px) {
+	#quem-somos {
+		background-image: url(file:///C:/Users/bruno.duarte/Desktop/Site%20Hamburgueria/imagens/fundo2.png);
+		background-repeat: no-repeat; 
+	}
+}
+
+@media(min-width: 1199px) {
+	#quem-somos {
+		background-image: url(file:///C:/Users/bruno.duarte/Desktop/Site%20Hamburgueria/imagens/fundo1.png);
+		background-repeat: no-repeat; 
+	}
+}
+
+/*------------------*\
+	Promocoes
+\*------------------*/
+
+.titulo-promo {
+	padding: 50px 40px;
+
+	font-family: Helvetica, sans-serif;
+	font-size: 3.0rem;
+	text-align: center;
+}
+
+/*------------------*\
+	Cardapio
+\*------------------*/
+
+.titulo-cardapio {		
+	font-family: Helvetica, sans-serif;
+	font-size: 3.0rem;
+	text-align: center;
+}
+
+#cardapio {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	overflow-x: hidden;
+}
+
+.gallery-container {
+	width: 40%;
+	margin: 40px auto;
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery-container .gallery-card{overflow: hidden};
+
+.gallery-container .gallery-card a {
+	width: 100%;
+	height: 100%;
+}
+
+.gallery-container .gallery-card a > img{
+	width: 100%;
+	height: 100%;
+	padding-left: 2px;
+	object-fit: cover;
+	transition: 0.5s;
+}
+
+.gallery-container .gallery-card a > img:hover{
+	transform: scale(1.0) rotate(30deg);
+}
+
+
+.layout-rodape1 {
+	font-size: 1.5rem;
+	font-family: Helvetica, sans-serif;
+}
